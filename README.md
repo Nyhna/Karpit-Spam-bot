@@ -1,0 +1,2 @@
+# Flash-Spam-bot
+A FLASH SPAM BOT MADE BY KRISHNA 
