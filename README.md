@@ -42,7 +42,7 @@
     
 - [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ɪᴅ](https://my.telegram.org/auth)    
 - [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʜᴀꜱʜ](https://my.telegram.org/auth)
-- [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://t.me/SessionGeneratorBot)
+- [Gernate bot session from here](https://replit.com/@Alcoholic-Krish/NYHNA#main.py)
     
 </details>
 
@@ -77,7 +77,7 @@
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-- [▀▄▀▄▀▄   🎀  𝒦𝑅𝐼𝒮𝐻𝒩𝒜  🎀   ▄▀▄▀▄▀](https://t.me/Alcoholic-Krish)
+- (https://t.me/Alcoholic-Krish)
 
 </details>
 
