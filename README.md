@@ -42,7 +42,7 @@
     
 - [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ɪᴅ](https://my.telegram.org/auth)    
 - [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʜᴀꜱʜ](https://my.telegram.org/auth)
-    
+- [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://t.me/SessionGeneratorBot)   
 </details>
 
 <details>
@@ -51,7 +51,7 @@
     
 > ʏᴏᴜ'ʟʟ ɴᴇᴇᴅ ᴀ ᴀᴘɪ_ɪᴅ & ᴀᴘɪ_ʜᴀsʜ ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ. 
 > ᴀʟᴡᴀʏs ʀᴇᴍᴇʙᴇʀ ᴛᴏ ᴜsᴇ ɢᴏᴏᴅ ᴀᴘɪ ᴄᴏᴍʙᴏ ᴇʟsᴇ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴄᴏᴜʟᴅ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ.
-> ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇᴛʀᴀᴛᴇ ᴛʜᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴏᴜʀᴄᴇꜱ [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://t.me/SessionGeneratorBot)
+> [Gernate bot session from here](https://replit.com/@Alcoholic-Krish/NYHNA#main.py)
     
 </details>
 
