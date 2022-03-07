@@ -1159,6 +1159,61 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
             
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.pornspam"))
+async def spam(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗼𝗥𝗡𝗦𝗽𝗮𝗺\n\nCommand:\n\n.pornspam <count> <message to spam>\n\n.pornspam <count> <reply to a message>\n\nCount must be a integer."
+    error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        smex = await e.get_reply_message()
+        if len(yukki) == 2:
+            message = str(yukki[1])
+            counter = int(yukki[0])
+            if counter > 100:
+                return await e.reply(error, parse_mode=None, link_preview=None )
+            await asyncio.wait([e.respond(message) for i in range(counter)])
+        elif e.reply_to_msg_id and smex.media:  
+            counter = int(yukki[0])
+            if counter > 100:
+                return await e.reply(error, parse_mode=None, link_preview=None )
+            for _ in range(counter):
+                smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
+                await gifspam(e, smex)  
+        elif e.reply_to_msg_id and smex.text:
+            message = smex.text
+            counter = int(yukki[0])
+            if counter > 100:
+                return await e.reply(error, parse_mode=None, link_preview=None )
+            await asyncio.wait([e.respond(message) for i in range(counter)])
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )          
+            
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
@@ -1544,7 +1599,7 @@ async def spam(e):
             
             
             
- @idk.on(events.NewMessage(incoming=True))
+@idk.on(events.NewMessage(incoming=True))
 @ydk.on(events.NewMessage(incoming=True))
 @wdk.on(events.NewMessage(incoming=True))
 @hdk.on(events.NewMessage(incoming=True))
@@ -1980,7 +2035,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @NYHNA_SUPPORT"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @NYHNA_SUPPORT"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
