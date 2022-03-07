@@ -695,7 +695,7 @@ RRAID = [
 KARPITSPAM = [5178643838, 5151463162, 1877225844, 5031289767]
 
 
-PORN = [
+PORNSPAM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
         "https://telegra.ph/file/b7a1a42429a65f64e67af.mp4",
         "https://telegra.ph/file/dc3da5a3eb77ae20fa21d.mp4",
