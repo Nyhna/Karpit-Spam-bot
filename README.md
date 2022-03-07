@@ -76,7 +76,7 @@
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-- (https://t.me/Alcoholic-Krish)
+- (https://t.me/DARK_LOVEROP)
 
 </details>
 
