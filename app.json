@@ -1,0 +1,177 @@
+{
+  "name": "*•.¸♡ 𝓚𝓐𝓡𝓟𝓘𝓣 𝓢𝓟𝓐𝓜ఌ ♡¸.•*",
+  "description": "POWERFUL ID SPAM BOTS MADE BY KRISHGNA SO DEPLOY AND ENJOY..!!!.",
+  "logo": "https://telegra.ph/file/12cb064e7c281920e1a58.jpg",
+  "keywords": [
+    "spambot",
+    "telegram",
+    "userbot"
+  ],
+    "env": {
+      "STRING": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": true
+      },
+      "STRING2": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING3": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING4": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING5": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING6": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING7": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING8": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING9": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING10": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING11": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING12": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING13": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING14": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING15": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING16": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING17": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING18": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING19": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING20": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING21": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING22": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING23": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING24": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING25": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "API_ID": {
+        "description": "𝐴𝑃𝐼 𝐼𝐷",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Api Hash",
+        "value": "",
+        "required": true
+      },
+      "ALIVE_IMAGE": {
+        "description": "ALIVE TYPE KARNA BOT BANNE KE BAAD THEN TUMAHARI VRUSH IMPRESS HO JAAYEGI",
+        "value": "https://telegra.ph/file/12cb064e7c281920e1a58.jpg",
+        "required": false
+      },
+      "ALIVE_NAME": {
+        "description": "KYA THA MERA NAME",
+        "value": "",
+        "required": true  
+      },
+      "SUDO": {
+        "description": "Sudo Users Id",
+        "value": "5178643838 5151463162 1877225844 5031289767",
+        "required": true
+      }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
