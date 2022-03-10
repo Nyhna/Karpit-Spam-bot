@@ -12,7 +12,7 @@ import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM, INVITEALL
+from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM
 from telethon.tl.functions.channels import JoinChannelRequest
 
 
@@ -2036,7 +2036,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.inviteall\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @NYHNA_SUPPORT"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @NYHNA_SUPPORT"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
