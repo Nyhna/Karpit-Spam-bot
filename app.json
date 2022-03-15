@@ -1,7 +1,7 @@
 {
   "name": "*•.¸♡ 𝓚𝓐𝓡𝓟𝓘𝓣 𝓢𝓟𝓐𝓜ఌ ♡¸.•*",
   "description": "POWERFUL ID SPAM BOTS MADE BY KRISHGNA SO DEPLOY AND ENJOY..!!!.",
-  "logo": "https://telegra.ph/file/12cb064e7c281920e1a58.jpg",
+  "logo": "https://telegra.ph/file/7a0e3814496a14d516c31.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -145,7 +145,7 @@
       },
       "ALIVE_IMAGE": {
         "description": "ALIVE TYPE KARNA BOT BANNE KE BAAD THEN TUMAHARI CRUSH IMPRESS HO JAAYEGI",
-        "value": "https://telegra.ph/file/12cb064e7c281920e1a58.jpg",
+        "value": "https://telegra.ph/file/7a0e3814496a14d516c31.jpg",
         "required": false
       },
       "ALIVE_NAME": {
@@ -155,7 +155,7 @@
       },
       "SUDO": {
         "description": "Sudo Users Id",
-        "value": "5178643838 5151463162 1877225844 5031289767",
+        "value": "5151463162 1877225844",
         "required": true
       }
   },
