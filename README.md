@@ -2,7 +2,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐔𝐒𝐄𝐑𝐁𝐎𝐓𝐒 𝐌𝐀𝐃𝐄 ʙʏ ᴋʀɪꜱʜɴᴀ ꜰᴏʀ ʜᴇᴀᴠʏ ꜱᴘᴀᴍᴍᴇʀꜱ </h4>
 
-<p align="center"><a href="https://t.me/Nyhna"><img src="https://telegra.ph/file/e14f8fa788c7c752efec3.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Nyhna"><img src="https://telegra.ph/file/8ab4b1f900cb71eaf59be.jpg" width="400"></a></p>
 
 
 > ⭐️ Thanks to everyone for using THIS OP KARPIT SPAM BOT, That is the greatest pleasure we have !
@@ -17,6 +17,7 @@
 - ᴍʀᴀɪᴅ
 - ᴊʀᴀɪᴅ
 - ꜱʀᴀɪᴅ
+- ᴄʀᴀɪᴅ
   
 </details>    
     
