@@ -12,7 +12,7 @@ import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM
+from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM, CRAID
 from telethon.tl.functions.channels import JoinChannelRequest
 
 
@@ -971,7 +971,7 @@ async def _(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
             
 
-USTAD_PIC = "https://telegra.ph/file/12cb064e7c281920e1a58.jpg"
+USTAD_PIC = "https://telegra.ph/file/7a0e3814496a14d516c31.jpg"
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -1468,6 +1468,70 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.craid"))
+
+async def spam(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = C𝗥𝗮𝗶𝗱\n\nCommand:\n\n.craid <count> <Username of User>\n\n.craid <count> <reply to a User>\n\nCount must be a integer."
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        smex = await e.get_reply_message()
+        if len(yukki) == 2:
+            message = str(yukki[1])
+            print(message)
+            a = await e.client.get_entity(message)
+            g = a.id
+            c = a.first_name
+            username = f"[{c}](tg://user?id={g})"
+            counter = int(yukki[0])
+            for _ in range(counter):
+                reply = random.choice(CRAID)
+                caption = f"{username} {reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.3)
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            g = b.id
+            c = b.first_name
+            counter = int(yukki[0])
+            username = f"[{c}](tg://user?id={g})"
+            for _ in range(counter):
+                reply = random.choice(CRAID)
+                caption = f"{username} {reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.1)
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )           
+       
+    
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.sraid"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.sraid"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.sraid"))
@@ -2036,7 +2100,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @NYHNA_SUPPORT"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.craid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @NYHNA_SUPPORT"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
