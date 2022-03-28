@@ -14,15 +14,13 @@ from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM, CRAID
 from telethon.tl.functions.channels import JoinChannelRequest
-from telethon.tl.functions.users import GetFullUserRequest
 
 import heroku3
+from telethon.tl.functions.users import GetFullUserRequest
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"
 sudousers = os.environ.get("SUDO", None)
-
-
 
 a = API_ID
 b = API_HASH
