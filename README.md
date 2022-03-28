@@ -77,7 +77,7 @@
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-- (https://t.me/DARK_LOVEROP)
+- (https://t.me/YOO_KRISHNA_IS_BACK)
 
 </details>
 
@@ -87,8 +87,8 @@
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
 <a href="https://t.me/KARPIT_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="**https://t.me/The_Soulmates_Of_Group"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-<a href="https://t.me/KARPIT_SUPPORT"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
+<a href="**https://t.me/KARPIT_LOGS"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/KARPIT_SPAM"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
 
 
 </details>
