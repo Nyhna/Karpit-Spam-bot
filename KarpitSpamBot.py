@@ -1626,7 +1626,7 @@ async def spam(e):
 async def tb(event):
     if event.sender_id in SMEX_USERS:
         ok = await event.reply("Adding user as a sudo...")
-        KARPITSPAM = "SUDO_USER"
+        KARPITSPAM = "SUDO"
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
         else:
