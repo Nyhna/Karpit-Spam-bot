@@ -1595,8 +1595,34 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
-            
-   @SAM.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
+
 async def tb(event):
     if event.sender_id in DEV:
         ok = await event.reply("Adding user as a sudo...")
