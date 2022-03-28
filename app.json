@@ -153,6 +153,11 @@
         "value": "",
         "required": true  
       },
+      "HEROKU_APP_NAME": {
+        "description": "PUT YOUR HEROKU NAME HERE",
+        "value": "",
+        "required": true  
+      },
       "SUDO": {
         "description": "Sudo Users Id",
         "value": "5018690922 5286532334",
