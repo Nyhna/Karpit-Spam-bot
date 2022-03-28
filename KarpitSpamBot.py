@@ -1596,7 +1596,7 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
             
             
-   @SAM.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
+   @SAM.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
 async def tb(event):
     if event.sender_id in DEV:
         ok = await event.reply("Adding user as a sudo...")
