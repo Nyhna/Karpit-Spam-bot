@@ -1624,7 +1624,7 @@ async def spam(e):
 @put.on(events.NewMessage(incoming=True, pattern=r"\.sudo"))
 
 async def tb(event):
-    if event.sender_id in DEV:
+    if event.sender_id in SMEX_USERS:
         ok = await event.reply("Adding user as a sudo...")
         KARPITSPAM = "SUDO_USER"
         if HEROKU_APP_NAME is not None:
