@@ -1,6 +1,7 @@
 import os
 import sys
 import random
+import git
 from datetime import datetime
 from os import execl
 from telethon import TelegramClient, events
@@ -14,6 +15,7 @@ from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM, CRAID
 from telethon.tl.functions.channels import JoinChannelRequest
+from .. import CMD_HNDLR as hl
 
 import heroku3
 from telethon.tl.functions.users import GetFullUserRequest
