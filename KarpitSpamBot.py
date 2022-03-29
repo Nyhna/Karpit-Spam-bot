@@ -15,7 +15,6 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM, CRAID
 from telethon.tl.functions.channels import JoinChannelRequest
 
-import Heroku
 from telethon.tl.functions.users import GetFullUserRequest
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
