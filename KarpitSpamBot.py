@@ -1285,34 +1285,34 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.one"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
 
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 🇴🇳🇪  🇼🇴🇷🇩\n\nCommand:\n\n.one <count> <Username of User>\n\n.one <count> <reply to a User>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 🇴🇳🇪  🇼🇴🇷🇩\n\nCommand:\n\n.oword <count> <Username of User>\n\n.oword <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1324,7 +1324,7 @@ async def spam(e):
             a = await e.client.get_entity(message)
             counter = int(yukki[0])
             for _ in range(counter):
-                reply = random.choice(ONE_WORD)
+                reply = random.choice(OWORD)
                 caption = f"{reply}"
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, caption)
@@ -1333,7 +1333,7 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             for _ in range(counter):
-                reply = random.choice(ONE_WORD)
+                reply = random.choice(OWORD)
                 caption = f"{reply}"
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, caption)
