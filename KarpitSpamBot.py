@@ -1285,7 +1285,63 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.one"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.one"))
 
+async def spam(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 🇴🇳🇪  🇼🇴🇷🇩\n\nCommand:\n\n.one <count> <Username of User>\n\n.one <count> <reply to a User>\n\nCount must be a integer."
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        smex = await e.get_reply_message()
+        if len(yukki) == 2:
+            message = str(yukki[1])
+            print(message)
+            a = await e.client.get_entity(message)
+            counter = int(yukki[0])
+            for _ in range(counter):
+                reply = random.choice(ONE_WORD)
+                caption = f"{reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.3)
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            for _ in range(counter):
+                reply = random.choice(ONE_WORD)
+                caption = f"{reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.1)
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+            
+            
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
@@ -2171,7 +2227,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.sudo\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.craid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @KARPIT_SUPPORT"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.sudo\n.join\n.pjoin\n.one\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.craid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @KARPIT_SUPPORT"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
