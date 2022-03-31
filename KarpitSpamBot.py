@@ -12,7 +12,7 @@ import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM, CRAID
+from Utils import RAID, RRAID, MRAID, SRAID, JRAID, PORNSPAM, CRAID, OWORD
 from telethon.tl.functions.channels import JoinChannelRequest
 
 import heroku3
