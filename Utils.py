@@ -815,7 +815,7 @@ PORNSPAM = [
         "https://telegra.ph/file/af9e3f98da0bd937adf6e.jpg",
 ]
 
-ONE_WORD = [
+OWORD = [
     "AAJA",
     "BHEN",
     "KE",
