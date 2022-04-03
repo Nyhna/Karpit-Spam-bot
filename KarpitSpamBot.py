@@ -882,7 +882,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("ᴛᴇʀᴀ ʙᴀᴘ ᴀɢʏᴀ")
+                await event.edit("join ho gaya")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -926,7 +926,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("𝖯𝖱𝖨𝖵𝖠𝖳𝖤 𝖬𝖤 𝖢𝖧𝖮𝖣𝖴𝖦𝖠")
+                await event.edit("𝖯𝖱𝖨𝖵𝖠𝖳𝖤 𝖬𝖤 𝖢𝖧𝖮𝖣𝖴𝖦𝖠 𝖨𝖲𝖪𝖮")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -970,7 +970,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("CHOD DALA😁")
+                await event.edit("CHOD DALA RE 😎")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1008,7 +1008,7 @@ async def start(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nBAPJI SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [BAPJI SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await ydk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
