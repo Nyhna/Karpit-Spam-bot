@@ -1,11 +1,11 @@
-<h1 align="center"><b>😈 𝓚𝓐𝓡𝓟𝓘𝓣 𝓢𝓟𝓐𝓜 𝓑𝓞𝓣 😈</b></h1>
+<h1 align="center"><b>𝗕𝗔𝗣𝗝𝗜 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧</b></h1>
 
-<h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐔𝐒𝐄𝐑𝐁𝐎𝐓𝐒 𝐌𝐀𝐃𝐄 ʙʏ ᴋʀɪꜱʜɴᴀ ꜰᴏʀ ʜᴇᴀᴠʏ ꜱᴘᴀᴍᴍᴇʀꜱ </h4>
+<h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐔𝐒𝐄𝐑𝐁𝐎𝐓𝐒 𝐌𝐀𝐃𝐄 ʙʏ 𝐵𝑎𝑝𝑗𝑖 ꜰᴏʀ ʜᴇᴀᴠʏ ꜱᴘᴀᴍᴍᴇʀꜱ </h4>
 
 <p align="center"><a href="https://t.me/Nyhna"><img src="https://telegra.ph/file/8ab4b1f900cb71eaf59be.jpg" width="400"></a></p>
 
 
-> ⭐️ Thanks to everyone for using THIS OP KARPIT SPAM BOT, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using THIS OP BAPJI SPAM BOT, That is the greatest pleasure we have !
 
 <details>
 <summary><b>ꜰᴇᴀᴛᴜʀᴇꜱ</b></summary>
