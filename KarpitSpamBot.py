@@ -80,7 +80,7 @@ put = ""
 
 que = {}
 
-SMEX_USERS = [5018690922, 5286532334]
+SMEX_USERS = [5256160497]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
@@ -119,10 +119,10 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@NYHNA_SUPPORT"))
-            await idk(functions.channels.JoinChannelRequest(channel="@NYHNA_SUPPORT"))
-            await idk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await idk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await idk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await idk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await idk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await idk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -145,10 +145,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -172,10 +172,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await  wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -199,10 +199,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -226,10 +226,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -253,10 +253,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await adk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await adk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await adk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await adk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await adk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await adk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await adk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -280,10 +280,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -308,10 +308,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -335,10 +335,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -363,10 +363,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await edk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await edk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await edk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await edk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await edk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await edk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await edk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -391,10 +391,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -419,10 +419,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -446,10 +446,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -474,10 +474,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -502,10 +502,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await sid(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await sid(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await sid(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await sid(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await sid(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await sid(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await sid(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -531,10 +531,10 @@ async def start_yukki():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await shy(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await shy(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await shy(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await shy(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await shy(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await shy(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await shy(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -557,10 +557,10 @@ async def start_yukki():
             print("Booting Up The Client 17")
             await aam.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await aan(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await aan(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await aan(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await aan(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await aan(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await aan(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await aan(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -583,10 +583,10 @@ async def start_yukki():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await ake(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await ake(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await ake(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await ake(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await ake(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await ake(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await ake(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -609,10 +609,10 @@ async def start_yukki():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await eel(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await eel(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await eel(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await eel(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await eel(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await eel(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await eel(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -635,10 +635,10 @@ async def start_yukki():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await khu(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await khu(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await khu(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await khu(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await khu(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await khu(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await khu(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -661,10 +661,10 @@ async def start_yukki():
             print("Booting Up The Client 21")
             await shi.start()
             botme = await shi.get_me()
-            await shi(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await shi(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await shi(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await shi(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await shi(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await shi(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await shi(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await shi(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -687,10 +687,10 @@ async def start_yukki():
             print("Booting Up The Client 22")
             await yaa.start()
             botme = await yaa.get_me()
-            await yaa(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -713,10 +713,10 @@ async def start_yukki():
             print("Booting Up The Client 23")
             await dav.start()
             botme = await dav.get_me()
-            await dav(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await dav(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await dav(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await dav(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await dav(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await dav(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await dav(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await dav(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -739,10 +739,10 @@ async def start_yukki():
             print("Booting Up The Client 24")
             await raj.start()
             botme = await raj.get_me()
-            await raj(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await raj(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await raj(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await raj(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await raj(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await raj(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await raj(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await raj(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -765,10 +765,10 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await put.start()
             botme = await put.get_me()
-            await put(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await put(functions.channels.JoinChannelRequest(channel="@KARPIT_SUPPORT"))
-            await put(functions.channels.JoinChannelRequest(channel="@KARPIT_LOGS"))
-            await put(functions.channels.JoinChannelRequest(channel="@KARPIT_SPAM"))
+            await put(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await put(functions.channels.JoinChannelRequest(channel="@PLUGIN_SPAM"))
+            await put(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
+            await put(functions.channels.JoinChannelRequest(channel="@BAPJI_SPAMMERS"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -836,11 +836,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(yukki[0])
-            text = "HAAYE BABU KO  BIO CHANGE KARNA KOI NA KARTA ME"
+            text ="🇮🇳𝐍𝐀𝐌 𝐇𝐈 𝐊𝐀𝐅𝐈 𝐇𝐄 𝐁𝐀𝐏𝐉𝐈🇮🇳"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("HAAYE MELE BABU  KA BIO CHANGE KAR DIYA MAINE")
+                await event.edit("🇮🇳𝐍𝐀𝐌 𝐇𝐈 𝐊𝐀𝐅𝐈 𝐇𝐄 𝐁𝐀𝐏𝐉𝐈🇮🇳")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -878,11 +878,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
-            text = "UFF NEW GROUP ME JANA PADEGA RE SHAAM CHAL JALDI JALDI DHOTI THAKE BHAAG"
+            text = "ᴛᴇʀᴀ ʙᴀᴘ ᴀɢʏᴀ"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("RE SHYAAM KHOPDI TOD JAAKE RAJU KI UDHAR")
+                await event.edit("ᴛᴇʀᴀ ʙᴀᴘ ᴀɢʏᴀ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -922,11 +922,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = yukki[0]
-            text = "PRIVATE H RE DEVA RE DEVA UTHA LE MEKO NHI PRIVATE WALE KO UTHA LE"
+            text = "𝖯𝖱𝖨𝖵𝖠𝖳𝖤 𝖬𝖤 𝖢𝖧𝖮𝖣𝖴𝖦𝖠"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("KALYUG AAGAYA RE BABA PRIVATE ME V HEART ATTACK HONE LAGA")
+                await event.edit("𝖯𝖱𝖨𝖵𝖠𝖳𝖤 𝖬𝖤 𝖢𝖧𝖮𝖣𝖴𝖦𝖠")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -966,18 +966,18 @@ async def _(e):
         if len(e.text) > 7:
             bc = ustad[0]
             bc = int(bc)
-            text = "RUK RUK JAA RHA"
+            text = "CHOD DALA😁"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("YEH MERA GHAR NHI H RE SHAAM APNA GHAAR KIDHAR H RE")
+                await event.edit("CHOD DALA😁")
             except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
 
-USTAD_PIC = "https://telegra.ph/file/7a0e3814496a14d516c31.jpg"
+USTAD_PIC = "https://telegra.ph/file/a27aafb48bba813b3cbe4.jpg"
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -1008,107 +1008,107 @@ async def start(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await ydk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await wdk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await hdk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await sdk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await adk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await bdk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await cdk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await edk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await hdk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await ddk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await vkk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await kkk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await lkk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await mkk.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await sid.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await shy.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI  SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await aan.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await ake.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await eel.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await khu.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await shi.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await yaa.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await dav.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await raj.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\nKARPIT SPAM 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )
      await put.send_file(event.chat_id,
                                   ALIVE_IMAGE,
-                                  caption="✯ KARPIT SPAM BOT IS  𝐻𝐸𝑅𝐸𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
+                                  caption="✯ BAPJI SPAM BOT IS  𝐻𝐸𝑅𝐸𝐸 ✯\n\n═══════════════════\n ME ZINDA HU RE BABA...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [KARPIT SPAM](https://github.com/Nyhna/KARPIT-SPAM-BOT)...👻\n═══════════════════\n\n"                                
                               )        
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1705,8 +1705,8 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 𝓚𝓐𝓡 𝓡𝓗𝓐 𝓐𝓓𝓓 𝓘𝓢𝓢 𝓒𝓗𝓞𝓜𝓤 𝓚𝓞 𝓢𝓤𝓓𝓞 𝓜𝓔 𝓡𝓤𝓚𝓞 𝓙𝓐𝓡𝓐")
-        heroku_var[KARPITSPAM] = newsudo
+        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 SUDO DE DIYA KUSH AB")
+        heroku_var[BAPJISPAM] = newsudo
 
         
 
@@ -1876,7 +1876,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "RUK TERA TOH GAME BAJANA PADEGA"
+            text = "RUK TERI TO WAT LAGANI PADEGI"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1886,7 +1886,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "RUK TERA TOH GAME BAJANA PADEGA"
+            text = "RUK TERI TO WAT LAGANI PADEGI"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1935,7 +1935,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "CHH TU JAA RE JAA ARE TU JAA"
+            text = "MAF KAR DIYA CHAL ABI TU BACHA H"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1946,7 +1946,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "CHH TU JAA RE JAA ARE TU JAA"
+            text = "MAF KAR DIYA CHAL ABI TU BACHA H"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1982,11 +1982,11 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "EEH MEREKO ESA DHAK DHAK HORE LA H RE BABA"
+        text = "BAPJI OP BOLTE"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"EEH MEREKO ESA DHAK DHAK HORE LA H RE BABA\n`{ms}` 𝗺𝘀")
+        await event.edit(f"BAPJI YOUR DAD\n`{ms}` 𝗺𝘀")
 
 
     
@@ -2227,7 +2227,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.sudo\n.join\n.pjoin\n.oword\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.craid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @KARPIT_SUPPORT"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.sudo\n.join\n.pjoin\n.oword\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.pornspam\n.delayspam\n.bigspam\n.raid\n.mraid\n.sraid\n.jraid\n.craid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸 TO JOIN @BAPJI_SPAMMERS"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -2235,11 +2235,11 @@ async def help(e):
     
         
 text = """
-𝓑𝓐𝓝 𝓖𝓨𝓐 𝓑𝓐𝓝 𝓖𝓨𝓐 𝓚𝓐𝓡𝓟𝓘𝓣 𝓢𝓟𝓐𝓜 𝓑𝓞𝓣 𝓑𝓐𝓝 𝓖𝓨𝓐 """
+BAPJI SPAM BOT BAN GYA"""
 
 print(text)
 print("")
-print("𝓚𝓐𝓡𝓟𝓘𝓣 𝓢𝓟𝓐𝓜 𝓑𝓞𝓣 𝓑𝓐𝓝 𝓖𝓨𝓐 𝓨𝓞")
+print("BAPJI SPAM BOT BAN GYA")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
