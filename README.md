@@ -2,7 +2,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐔𝐒𝐄𝐑𝐁𝐎𝐓𝐒 𝐌𝐀𝐃𝐄 ʙʏ 𝐵𝑎𝑝𝑗𝑖 ꜰᴏʀ ʜᴇᴀᴠʏ ꜱᴘᴀᴍᴍᴇʀꜱ </h4>
 
-<p align="center"><a href="https://t.me/Nyhna"><img src="https://telegra.ph/file/8ab4b1f900cb71eaf59be.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Nyhna"><img src="https://telegra.ph/file/3ceed0fc7b27c7ce74086.jpg" width="400"></a></p>
 
 
 > ⭐️ Thanks to everyone for using THIS OP BAPJI SPAM BOT, That is the greatest pleasure we have !
@@ -77,7 +77,7 @@
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-- (https://t.me/YOO_KRISHNA_IS_BACK)
+- @BAPJIOPBOLTEE
 
 </details>
 
@@ -86,9 +86,9 @@
 <br>
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
-<a href="https://t.me/KARPIT_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="**https://t.me/KARPIT_LOGS"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-<a href="https://t.me/KARPIT_SPAM"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
+<a href="https://t.me/BAPJI_SPAMMERS"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="**https://t.me/BAPJI_WORLD"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/PLUGIN_SPAM"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
 
 
 </details>
