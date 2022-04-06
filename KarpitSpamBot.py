@@ -1379,7 +1379,7 @@ async def echo(event):
                 pass
             if is_echo(user_id, chat_id):
                 remove_echo(user_id, chat_id)
-                await event.reply("ECHO BAND KAR DI AB NA BOLEGA KUCH")
+                await event.reply("ECHO BAND KAR  DI RE AB NA BOLEGA KUCH")
             else:
                 await event.reply("CHAHATA H NA WAPIS ECHO NA  KARU TOH SORRY BOL SMAJHA")
      else:
